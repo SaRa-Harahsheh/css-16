@@ -1,0 +1,9 @@
+.img{
+    display: inline-block;
+    display: grid;
+grid-template-columns: repeat(3,ifr);
+ 
+    gap: 20px;
+    width: 500px;
+    height: 500px;
+}
