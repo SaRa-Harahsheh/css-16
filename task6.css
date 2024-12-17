@@ -1,0 +1,22 @@
+
+.fix{
+    position: fixed;
+    top: 10%;
+    right: 10px;
+    width: 100px;
+    height: 300px;
+    background-color: rgb(232, 209, 209);
+    border: 2px solid rgb(63, 61, 61);
+    display: flex;
+
+    align-items: center;
+    overflow: hidden;
+}
+ img{
+    width: 100%;
+    height: auto;
+
+ }     
+      
+       
+   
