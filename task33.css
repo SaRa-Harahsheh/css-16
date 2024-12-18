@@ -1,7 +1,40 @@
-.first{
-    background-color: orange;
+* {
+    margin: 0;
+    padding: 0;
     
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.first{
+    background-color: orange;
+    color: white;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 .second{
+    
     background-color: blue;
+    color: white;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.first .second{
+   
 }

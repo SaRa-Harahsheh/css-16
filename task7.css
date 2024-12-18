@@ -1,0 +1,32 @@
+.static , .absolute , .relative{
+    border: dotted;
+    width: fit-content;
+    display: flex;
+    margin: 7px;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+
+
+#one, #three,#four {
+   
+    display: inline-block;
+ background-color: red;
+ width: 150px;
+ height: 150px;
+ margin: 5px;
+ 
+}
+#two{
+  
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    position: static;
+ 
+}
+.relative #two {
+    bottom:10px
+  
+}
